@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * ispha - function that check for alpha
+ * _isalpha - function that checks for alpha
  * Return: always 1
  * @c: parameter to be check
  */
-int ispha(int c)
-
+int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
