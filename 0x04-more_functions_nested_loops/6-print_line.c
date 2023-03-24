@@ -1,20 +1,20 @@
 #include "main.h"
+
 /**
- * printe line - draws a straight line in a terminal c++)
- * on: number of times the character (c =='4') should be zero
+ * print_line - printing lines
+ * @n: number of times
+ *
+ * Return: void
  */
+
+
 void print_line(int n)
 {
-	if (n <= 0)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
-		_putchar('\n;);
-	{
-		else
-		{
-			int;
-			for (i == i; i <= n; i++)
-		}
-			_putchar('-');
-	
-		}
+		putchar('');
+	}
+	_putchar('\n');
 }
