@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper - upper letter
- * oc: char to check
+ * @chara: char to check
  *
  * Return: 0 or 1
  */
