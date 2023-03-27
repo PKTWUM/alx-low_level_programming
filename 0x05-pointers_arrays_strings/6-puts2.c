@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * puts 2 - function should print only one character out
+ * puts2 - function should print only one character out
  * starting with the first one
  * @str: input
+ * Description: array of even numbers
  * Return: print
  */
 void puts2(char *str)
@@ -15,15 +16,15 @@ void puts2(char *str)
 	while (*y != '\0')
 	{
 		y++;
-		long++;
+		longi++;
 	}
 	t = longi - 1;
 
-	for (o = 0 ; o <= t ; o++);
+	for (o = 0 ; o <= t ; o++)
 	{
 		if (o % 2 == 0)
 	{
-		_putchar(str[0]);
+		_putchar(str[o]);
 	}
 	}
 	_putchar('\n');
